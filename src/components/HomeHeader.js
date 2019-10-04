@@ -9,6 +9,11 @@ const Container = styled.div`
     line-height: 1.3;
     font-size: 8rem;
   }
+  @media only screen and (max-width: 600px) {
+    .text{
+      font-size: 3rem;
+    }
+  }
   .pding {
     padding-top: 30px;
     padding-right: 79px;
