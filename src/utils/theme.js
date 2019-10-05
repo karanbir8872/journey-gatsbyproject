@@ -34,7 +34,7 @@ export const theme = {
   fontSizeExtraSmall: 12,
   fontSizeMedium: 18,
   fontSizeLarge: 22,
-  textColor: , // '#0A0B11',
+  textColor: darkShades, // '#0A0B11',
   textColorInverse: lightShades,
   textColorLite: '#8B8989',
   menuTintColor: darkAccent,
@@ -102,6 +102,9 @@ const GlobalStyle = createGlobalStyle`
       background-color: ${props => props.theme.lightShades};
       color: ${props => props.theme.darkAccent};
     }
+  }
+  .line{
+    line-height: 2;
   }
 `;
 

@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import HomeHeader from '../components/HomeHeader';
 import BookingContent from '../components/BookingContent';
 import Visit from '../components/Visit';
+import VisitContent from '../components/VisitContent';
 import Layout from '../components/Layout';
 
 const Topcontainer = styled.div`
@@ -27,6 +28,7 @@ export default class IndexPage extends React.Component {
           <HomeHeader />
           <BookingContent />
           <Visit />
+          <VisitContent />
         </Topcontainer>
       </Layout>
     );
