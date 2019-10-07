@@ -98,6 +98,7 @@ const GlobalStyle = createGlobalStyle`
   .button {
     background-color: ${props => props.theme.mainBrandColor};
     color: ${props => props.theme.darkAccent};
+    border-radius: 0;
     :hover {
       background-color: ${props => props.theme.lightShades};
       color: ${props => props.theme.darkAccent};

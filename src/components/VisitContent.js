@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import VisitPhoto from './VisitPhoto';
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  .disk {
+    margin-top: 3rem;
+  }
+`;
 const VisitContent = () => (
   <Wrapper>
     <section className="section">
@@ -22,7 +26,7 @@ const VisitContent = () => (
           </div>
         </div>
         <div className="has-text-centered">
-          <a className="button is-medium">Book Now</a>
+          <a className="button disk is-medium">Discover More</a>
         </div>
       </div>
     </section>
