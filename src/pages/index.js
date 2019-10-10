@@ -9,6 +9,11 @@ import Visit from '../components/Visit';
 import VisitContent from '../components/VisitContent';
 import Background from '../components/Background';
 import Slider from '../components/Slider';
+import Hotel from '../components/Hotel';
+import RestContent from '../components/RestContent';
+import BlueCard from '../components/BlueCard';
+import Service from '../components/Service';
+import ServiceContent from '../components/ServiceContent';
 import Layout from '../components/Layout';
 
 const Topcontainer = styled.div`
@@ -33,6 +38,11 @@ export default class IndexPage extends React.Component {
           <VisitContent />
           <Background />
           <Slider />
+          <Hotel />
+          <RestContent />
+          <BlueCard />
+          <Service />
+          <ServiceContent />
         </Topcontainer>
       </Layout>
     );
