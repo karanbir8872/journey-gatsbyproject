@@ -77,6 +77,7 @@ const Footer = () => (
                 <i className="fas fa-envelope" />
               </span>
             </div>
+            <p>jhjdhhsdjsh</p>
           </div>
           <div className="column">CONTACT US</div>
         </div>
