@@ -14,6 +14,7 @@ import RestContent from '../components/RestContent';
 import BlueCard from '../components/BlueCard';
 import Service from '../components/Service';
 import ServiceContent from '../components/ServiceContent';
+import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 
 const Topcontainer = styled.div`
@@ -43,6 +44,7 @@ export default class IndexPage extends React.Component {
           <BlueCard />
           <Service />
           <ServiceContent />
+          <Footer />
         </Topcontainer>
       </Layout>
     );
