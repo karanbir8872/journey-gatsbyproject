@@ -12,12 +12,17 @@ const Wrapper = styled.div`
   .tocolor {
     color: ${props => props.theme.darkAccent};
   }
+  @media only screen and (max-width: 600px) {
+    .said {
+      line-height: 1;
+    }
+  }
 `;
 const BlueCard = () => (
   <Wrapper>
     <section className="section">
       <div className="container">
-        <p className="has-text-white is-size-1 has-text-weight-semibold is-family-sans-serif ">
+        <p className="said has-text-white is-size-1 has-text-weight-semibold is-family-sans-serif ">
           What they said
         </p>
         <div className="columns">
